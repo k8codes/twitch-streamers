@@ -66,6 +66,7 @@ h1 {
 
  #home {
    color: #99353f;
+   margin-bottom: 20px;
  }
 
  #home:hover {
@@ -74,5 +75,4 @@ h1 {
 
  #nav {
    margin: 0 auto;
-   cursor: pointer;
  }

@@ -36,4 +36,6 @@ $(document).ready(function() {
  })
 
   }//for loop
+
+
 });//end of input for document.ready
