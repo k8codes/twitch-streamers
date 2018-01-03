@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css?family=Bungee+Inline');
+
+
+/*centers body; gives default font*/
+body {
+  font-family: 'Helvetica', sans-serif;
+  background-color: #f2eee8;
+}
+
+/*styles heading*/
+h1 {
+  font-family: 'Bungee Inline', sans-serif;
+  color: #99353f;
+  text-shadow: 2px 2px 2px #000;
+}
+
+/*positions key*/
+#key {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.online {
+  background-color: #11f78c;
+  color: #000;
+  border: 1px #2d1016 solid;
+}
+
+.offline {
+  background-color: #f7254b;
+  color: #000;
+  list-style-tip: none;
+  border: 1px #2d1016 solid;
+}
+
+.no-account {
+  background-color: black;
+  color: #FFF;
+  border: 1px #2d1016 solid;
+}
+
+#displayArea {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-bottom: 25px;
+}
+
+#results_online {
+  box-shadow: 10px 10px 5px grey;
+}
+
+ a:hover {
+   color: #000;
+ }
+
+ #online, #offline, #no-account {
+   border-radius: 12px;
+   padding: 3px;
+   margin: 3px;
+   box-shadow: 2px 2px 2px grey;
+   cursor: default;
+ }
+
+ #home {
+   color: #99353f;
+ }
+
+ #home:hover {
+   color: #47181d;
+ }
+
+ #nav {
+   margin: 0 auto;
+   cursor: pointer;
+ }
